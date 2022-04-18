@@ -1,7 +1,13 @@
-function setup() {
-  createCanvas(400, 400);
+let button = document.querrySelector("button");
+let div = document.querySelector("div");
+
+button.addEventListener("click",()=>{
+    
+})
+function show(){
+
 }
 
-function draw() {
-  background(255,220,0);
-}
+document.getElementById('there').appendChild(
+    document.getElementById('MacGuffin')
+  );

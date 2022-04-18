@@ -1,3 +1,7 @@
+@media screen {
+  
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -15,9 +19,12 @@ canvas {
   box-sizing: border-box;
   background-color: #2dce89;
   font-size: 25px;
+  font-weight: bold;
   color: white;
   line-height: 1.5;
-
+  margin-bottom:0;
+  width: auto;
+  height: auto;
 }
 
 main {
@@ -32,29 +39,56 @@ main {
     margin-left: 100px;
     margin-right: auto;
     background-color: white;
-    text-align: left; 
+    /* text-align: left;  */
     padding: 15px;
     width: 500px;
     border-radius:10px;
 }
 
-.add-class{
+hr {
+  width: 500px;
+  border-style:solid;
+  border-color: #868a8f;
   position: relative;
+  top: -1em;
+  font-size:0.1;
+  }
+
+.Class2{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: auto;
+  background-color: white;
+  /* text-align: left;  */
+  padding: 15px;
+  width: 500px;
+  border-radius:10px;
+}
+
+.add-class{
+  font-family: 'Google Sans', Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
   padding: 30px;
-  text-align: center;
   font-size: 18px;
   color: #5F6368;
   cursor: pointer;
   width: 100%;
-  outline: 0;
-  border: 0;
-  background: transparent;
-  overflow: hidden;
   border-radius: 10px;
-  font-family: 'Google Sans', Helvetica, Arial, sans-serif;
-
+  border-style:dashed;
+  border-width:2px;
+  width: 530px;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align:center;
+ 
+}
+.add-class:hover{
+  color: #2dce89;;
+  border-color:#2dce89;
 }
 
 
