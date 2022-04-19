@@ -4,10 +4,6 @@ let div = document.querySelector("div");
 button.addEventListener("click",()=>{
     
 })
-function show(){
-
+function showBlock(){
+  document.getElementsByClassName("add-class").style.display="";
 }
-
-document.getElementById('there').appendChild(
-    document.getElementById('MacGuffin')
-  );

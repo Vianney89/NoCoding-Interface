@@ -94,3 +94,35 @@ hr {
 
 /* scroll-snap-align:start; */
 
+/* .center-column{
+  
+}
+
+.training-container{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: auto;
+  background-color: white;
+
+  padding: 15px;
+  width: 500px;
+  border-radius:10px;
+
+}
+
+.preview-container{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: auto;
+  background-color: white;
+  padding: 15px;
+  width: 500px;
+  border-radius:10px;
+
+} */
