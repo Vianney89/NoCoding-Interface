@@ -31,7 +31,7 @@ main {
   overflow:scroll;
 }
 
-.Class1{
+.classifier{
     position:relative;
     display: flex;
     flex-direction: column;
@@ -53,20 +53,6 @@ hr {
   top: -1em;
   font-size:0.1;
   }
-
-.Class2{
-  position:relative;
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: auto;
-  background-color: white;
-  /* text-align: left;  */
-  padding: 15px;
-  width: 500px;
-  border-radius:10px;
-}
 
 .add-class{
   font-family: 'Google Sans', Helvetica, Arial, sans-serif;
@@ -91,33 +77,46 @@ hr {
   border-color:#2dce89;
 }
 
+.close-button{
+  position:absolute;
+  right:0;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
 
 /* scroll-snap-align:start; */
 
-/* .center-column{
-  
+.center-column{
+  position:absolute;
+  right: -300px;
 }
 
 .training-container{
-  position:relative;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: -250px;
   margin-left: 100px;
   margin-right: auto;
   background-color: white;
-
   padding: 15px;
   width: 500px;
   border-radius:10px;
 
 }
 
+.right-column{
+  position: absolute;
+  right: -900px;
+}
+
 .preview-container{
-  position:relative;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: -250px;
   margin-left: 100px;
   margin-right: auto;
   background-color: white;
@@ -125,4 +124,4 @@ hr {
   width: 500px;
   border-radius:10px;
 
-} */
+}
