@@ -85,7 +85,15 @@ hr {
   height: 25px;
   font-size: 20px;
   text-align: center;
+  background-color: white;
+  border-width: 0ch;
   border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.close-button:hover{
+  color: #2dce89;;
 }
 
 /* scroll-snap-align:start; */
